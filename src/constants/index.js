@@ -119,6 +119,17 @@ import {
   const experiences = [
     {
       title: "Apprenticeship",
+      company_name: "Western Central Railway, (WCR) Jabalpur",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2023",
+      points: [
+        "Train Operations & Scheduling: Learned about train scheduling, route management, and timetabling.",
+        "Railway Safety Protocols: Trained in the safety protocols involved in railway operations, including signal systems, emergency drills, and accident management.",
+      ],
+    },
+    {
+      title: "Apprenticeship",
       company_name: "Airport Authority of India, (AAI) Jabalpur",
       icon: starbucks,
       iconBg: "#383E56",
@@ -127,17 +138,6 @@ import {
         "Air Traffic Control (ATC): Gained practical experience in managing air traffic, coordinating between pilots and ground control, and ensuring flight safety.",
         "Airport Security & Safety Standards: Trained in safety procedures, including emergency protocols, evacuation plans, and the importance of adhering to aviation security regulations.",
         
-      ],
-    },
-    {
-      title: "Apprenticeship",
-      company_name: "Western Central Railway, (WCR) Jabalpur",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2023",
-      points: [
-        "Train Operations & Scheduling: Learned about train scheduling, route management, and timetabling.",
-        "Railway Safety Protocols: Trained in the safety protocols involved in railway operations, including signal systems, emergency drills, and accident management.",
       ],
     },
     // {
