@@ -47,12 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {/* I'm a skilled software developer with experience in Java and
-        JavaScript, and expertise in frameworks like React.js, Node.js, and
-        GSAP Animation. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life! */}
-        Proficient in Java and JavaScript with expertise in React.js, Node.js, Express.js, GSAP Animation, and DevOps, passionate about building dynamic web applications, optimizing workflows, and creating engaging user experiences while seeking an internship to contribute to innovative projects and gain professional experience in full-stack development and DevOps!
+        I am a MERN stack web developer skilled in building dynamic, full-stack applications. My expertise in Node.js, Express.js, React.js, and MongoDB allows me to create robust and responsive web experiences. I also leverage Tailwind CSS and Framer Motion for modern UI design and possess a strong foundation in Data Structures and Algorithms (DSA) using Java, ensuring I write efficient and optimized code.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

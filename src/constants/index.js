@@ -56,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "DevOps Engineer",
+      title: "Java Developer",
       icon: creator,
     },
   ];
@@ -117,18 +117,7 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Apprenticeship",
-      company_name: "Western Central Railway, (WCR) Jabalpur",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2023",
-      points: [
-        "Train Operations & Scheduling: Learned about train scheduling, route management, and timetabling.",
-        "Railway Safety Protocols: Trained in the safety protocols involved in railway operations, including signal systems, emergency drills, and accident management.",
-      ],
-    },
-    {
+     {
       title: "Apprenticeship",
       company_name: "Airport Authority of India, (AAI) Jabalpur",
       icon: starbucks,
@@ -140,32 +129,18 @@ import {
         
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Apprenticeship",
+      company_name: "Western Central Railway, (WCR) Jabalpur",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2023",
+      points: [
+        "Train Operations & Scheduling: Learned about train scheduling, route management, and timetabling.",
+        "Railway Safety Protocols: Trained in the safety protocols involved in railway operations, including signal systems, emergency drills, and accident management.",
+      ],
+    },
+   
   ];
   
   const testimonials = [
@@ -197,37 +172,37 @@ import {
   
   const projects = [
     {
-      name: "Cab Booking",
+      name: "Imagify",
       description:
-        "A web-based cab-booking platform for users to search, book, and track rides, and for captains to manage requests, with real-time map integration.",
+        "A full-stack AI SaaS web application where users can generate and download images from text prompts, featuring a credit system and secure payment integration with Razorpay.",
+      tags: [
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "clipdrop api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "razorpay",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://imagify-frontend-gjzn.onrender.com",
+    },
+    {
+      name: "Quick Commerce",
+      description:
+        "Quick Commerce is a dynamic frontend application built with React and Tailwind CSS. It provides a seamless user experience for Browse products, managing a shopping cart, and viewing an order summary.",
       tags: [
         {
           name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/amarjec/Uber",
-    },
-    {
-      name: "RealTime-Tracker",
-      description:
-        "Backend platform for real-time tracking using Leaflet Map, enabling location monitoring, data processing, and live updates for tracking assets or users.",
-      tags: [
-        {
-          name: "backend",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
+          name: "frontend",
           color: "green-text-gradient",
         },
         {
@@ -236,28 +211,28 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/amarjec/Realtime-Tracker",
+      source_code_link: "https://quickcommerce-frontend.onrender.com",
     },
     {
-      name: "E-Commerce",
+      name: "Cab Booking",
       description:
-        "Web-based platform for buying and selling products online, providing a seamless shopping experience with secure payments, product listings, and order management.",
+        "A cab-booking platform is web application enabling users to search, book, and track rides. The platform also allows captains to manage requests, with real-time map integration, providing a efficient service.",
       tags: [
         {
-          name: "node.js",
+          name: "backend",
           color: "blue-text-gradient",
         },
         {
-          name: "react.js",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "express.js",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/amarjec/E-commerce",
+      source_code_link: "https://github.com/amarjec/Uber",
     },
   ];
   

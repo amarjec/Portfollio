@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Amar Agrawal",
           from_email: form.email,
-          to_email: "ammu.jec@gmail.com",
+          to_email: "0201mt221008@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -129,6 +129,8 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+
+    
     </div>
   );
 };
